@@ -5,8 +5,11 @@ on:
     branches: [ main ]
     paths:
       - 'Dockerfile'
+      - '.dockerignore'
+      - 'Kraftfile'
       - 'index.js'
       - 'package.json'
+      - 'package-lock.json'
   pull_request:
     branches: [ main ]
   workflow_dispatch:
